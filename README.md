@@ -15,6 +15,21 @@ The methods to implement are:
 - `do_action(self, action: Action, state: State)` : returns the new state after doing the given action
 - `is_state_solution(self, state: State)` : returns True if the given state is a solution, False otherwise
 
+## Installation
+
+Install from PyPI:
+```bash
+pip install backtracking
+```
+
+Install from source:
+```bash
+git clone git@github.com:tboulet/backtracking_algorithm.git
+cd backtracking_algorithm
+pip install -e .
+```
+
+
 ## Code example
 
 ```python

@@ -8,7 +8,7 @@ setup(
     
     packages=find_namespace_packages(),
 
-    version="0.1.0",
+    version="0.1.1",
     license="MIT",
     description="A framework for backtracking algorithm, as an interface and a solving function.",
     long_description=open('README.md').read(),     
